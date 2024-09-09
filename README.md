@@ -4,15 +4,7 @@
 This project aims to develop an automated system for cleaning solar panels to maintain high efficiency in energy production.
 
 ## Problem Statement
-Solar panels are effective for converting solar energy into electricity but become less efficient when dust accumulates on their surface. Manual cleaning is feasible for small installations but impractical for large solar fields due to size and cost. Therefore, an automated, cost-effective solution is needed.
-
-![Mechatronics Architecture](images/mechatronics_architecture.png)
-
-## Solution
-We propose a robot equipped with:
-- **Edge Detection Sensors**: To prevent falling off the panels.
-- **Water Spraying System**: For cleaning.
-- **Motors and Joints**: To move and control the cleaning mechanism.
+Solar panels convert sunlight into electricity using photovoltaic cells and are a key renewable energy source. However, dust accumulation on solar panels reduces their efficiency by up to 30%. In large solar fields, spanning 10 to 200 acres, manual cleaning becomes impractical due to the size, cost, and time required. Therefore, an automated, reliable, and cost-effective solution is needed to clean the panels at regular intervals, with high precision and minimal energy consumption.
 
 ## Mechatronics Architecture
 The system comprises:
@@ -22,6 +14,17 @@ The system comprises:
 - **Water Pump**: Sprays water for cleaning.
 - **Motors**: Drive the movement and rotation of components.
 
+![Mechatronics Architecture](images/mechatronics_architecture.png)
+
+## Solution
+We propose a robot equipped with:
+- **Edge Detection Sensors**: To prevent falling off the panels.
+- **Water Spraying System**: For cleaning.
+- **Motors and Joints**: To move and control the cleaning mechanism.
+
 ## References
 1. [Source for installed solar energy capacity](https://www.sciencedirect.com/science/article/pii/S2352484723014579)
 2. [Source for solar energy in desert areas](https://www.mdpi.com/1996-1073/16/19/6794)
+
+## Figures
+![Dust Efficiency Relationship](path/to/your/graph_image.png)
