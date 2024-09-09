@@ -15,11 +15,16 @@ In large solar fields spanning 10 to 200 acres, manual cleaning becomes impracti
 To address this issue, we are developing a solar cleaning robot inspired by the SolarCleano B1 model. This robot will move across solar panels in a field and clean them using a combination of sensors and automated mechanisms. The rough sketches of the solution are provided below, illustrating the robot's design and components.
 <h2>Rough Sketches</h2>
 
+<h2>Rough Sketches</h2>
+
 <p>
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_1.jpg?raw=true" alt="Rough Sketch 1" width="23%" style="display:inline; margin:1%;" />
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_2.jpg?raw=true" alt="Rough Sketch 2" width="23%" style="display:inline; margin:1%;" />
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_3.jpg?raw=true" alt="Rough Sketch 3" width="23%" style="display:inline; margin:1%;" />
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_4.jpg?raw=true" alt="Rough Sketch 4" width="23%" style="display:inline; margin:1%;" />
+  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_1.jpg?raw=true" alt="Rough Sketch 1" width="45%" style="display:inline; margin:2%;" />
+  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_2.jpg?raw=true" alt="Rough Sketch 2" width="45%" style="display:inline; margin:2%;" />
+</p>
+
+<p>
+  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_3.jpg?raw=true" alt="Rough Sketch 3" width="45%" style="display:inline; margin:2%;" />
+  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_4.jpg?raw=true" alt="Rough Sketch 4" width="45%" style="display:inline; margin:2%;" />
 </p>
 
 
