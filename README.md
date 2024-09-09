@@ -10,21 +10,9 @@ Solar panels convert sunlight into electricity using photovoltaic cells and are 
 
 In large solar fields spanning 10 to 200 acres, manual cleaning becomes impractical due to the size, cost, and time required. Therefore, an automated, reliable, and cost-effective solution is needed to clean the panels at regular intervals, with high precision and minimal energy consumption.
 
-## Mechatronics Architecture
-The system comprises:
-- **Track Frame**: Guides the movement of the cleaning mechanism.
-- **Prismatic Joints**: Allow vertical movement.
-- **Sensors**: Detect edges and obstacles.
-- **Water Pump**: Sprays water for cleaning.
-- **Motors**: Drive the movement and rotation of components.
-
-![Mechatronics Architecture](images/mechatronics_architecture.png)
-
 ## Solution
-We propose a robot equipped with:
-- **Edge Detection Sensors**: To prevent falling off the panels.
-- **Water Spraying System**: For cleaning.
-- **Motors and Joints**: To move and control the cleaning mechanism.
+
+To address this issue, we are developing a solar cleaning robot inspired by the SolarCleano B1 model. This robot will move across solar panels in a field and clean them using a combination of sensors and automated mechanisms. The rough sketches of the solution are provided below, illustrating the robot's design and components.
 
 ## References
 1. [Source for installed solar energy capacity](https://www.sciencedirect.com/science/article/pii/S2352484723014579)
