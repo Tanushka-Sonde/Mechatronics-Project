@@ -1,16 +1,27 @@
 # Self-Cleaning Solar Panel Robot
 
+## Project Overview
+This project aims to develop an automated system for cleaning solar panels to maintain high efficiency in energy production.
+
 ## Problem Statement
+Solar panels are effective for converting solar energy into electricity but become less efficient when dust accumulates on their surface. Manual cleaning is feasible for small installations but impractical for large solar fields due to size and cost. Therefore, an automated, cost-effective solution is needed.
 
-Solar panels are an effective and sustainable solution for converting solar energy into electricity using photovoltaic cells. Solar panels are a vital method of generating renewable energy due to their green, high-efficiency, and eco-friendly characteristics. With an installed capacity of 1053 GW in 2022, solar energy is the second most installed renewable energy technology ([Source](https://www.sciencedirect.com/science/article/pii/S2352484723014579)).
+![Mechatronics Architecture](images/mechatronics_architecture.png)
 
-To maximize the efficiency of power generation, solar panels are kept in open areas. Due to air pollution, dust present in the air settles on the solar panels, forming a layer. This leads to a decrease in energy conversion efficiency by 30%. It is estimated that solar energy will provide 10% of global energy production by 2030, most of which will be produced in desert areas where the Sun shines ([Source](https://www.mdpi.com/1996-1073/16/19/6794)). However, there is also a lot of dust in these areas, which reduces energy production by up to 30% per month. 
+## Solution
+We propose a robot equipped with:
+- **Edge Detection Sensors**: To prevent falling off the panels.
+- **Water Spraying System**: For cleaning.
+- **Motors and Joints**: To move and control the cleaning mechanism.
 
-### **Efficiency vs. Dust Density**
-
-![Efficiency vs. Dust Density](https://pdf.sciencedirectassets.com/277910/1-s2.0-S1876610219X00041/1-s2.0-S1876610219301493/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIG08rctyjj%2FZx1vkD8SSbkpSXI2sLfCohBOoQOBB2e0bAiAFCkQKvvKNNzKrOobpD4PxsDuD1H%2BtIqtLQtJPfM61NCq8BQii%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIMBGQJsISFzRofSob7KpAFnwHKlh%2BhTLY3IeFnVcGDwTXiimOWrqLE31BQCCXQGjm04PKfNqga6xKMddHn7FU4i5oLuYALakTJTSxORPFNirmYTIe5gmfbHsITR3ZECubHUptFRWNZI%2FSh5udtKb150ggHrKNvC0oIGU3UrvcP0VvuRjbt4xt9yeRbOpoxa1aHJoC9htypoGsVxU368r3kaZW3vowfVoD6Hc73U2q9ujrammhxBExTPm6A3sxa1C7MfcWxMLmrU2b4j1ii3%2FWDQ0TwQmB9YJOkTVz4YgL9aGrcucP6M4DkgeMp%2F2z3FwYbI69xY6TRodsuQU8F4shi7D2uSDWqF3lKrkvmqu205g3quiArGEguvkcSwdOkJ%2F27V4HZ%2FAq8cApQGn%2B3UwAjy%2BoS2y0gWAe2Cd0M15d4wvUqY0i%2BbIhPqvPfEfwtYM7OJ4m0G9jbrqzQyOu1iayYvgWMR1kueZTFfzCtEyoO%2F3P%2FyiKk28ZAgvyH1PPYn2ssj9c6zR87VlsxvfHLyliz4zlJR1peslENsg%2BKXEF9bRFCGwlFNax%2BjFjNksg0kvtJvb7N8FETW2Q%2B9636XY4HgIJq2xLl9hgFLfihhXOLkeU87MgteBnfXK2O1zLtXi5oK934NmrljiSpTk9RumwKVAJ%2BV38FqEcZkUP3ivx5gD2f9G3q4eukUnEUOZ3yXxn505SJGY%2Bzsh%2Fwjl4ZmgjVe0Wj9IZ03UdxkLAPJ1yT7w4GbpaLfQN1yotXeGUt9mmp3PSUdfOaxcFobE%2FexAVtUKCO4AOKglIlQQms7Vdy2h6R1R5S8TYEYJPK%2BMm3%2FF30aU1ZFMNfF5Y8dSxoGGbNT%2FfLFcoBApQkSfv%2B%2FZIY8txYZAfMnBszGKTmHOOX4FwwtpehtgY6sgGKA4vuA%2BleIOWmEZcxyze%2FcZsMqNY0TJBLb0d5t4h9OXBFlzHYtSGriCHCPnfACyeU9j%2Bk%2FVuVNxT843ltfSDGiXK5svQVTdjTTImC5rXa7ezpON17n4ognwQcnpAwRoP21v7I7lUHNpLT9h%2B3zOnAZB0bdgl3gKFYuyYG%2BJbKwVGQu4ZzHLD7o6tqLJpEMPxif76VecvXz8TcFA%2Bcb1ffIIJOEgtUBeOxZPk1QEQ6pk1y&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240823T095934Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4PA76NH6%2F20240823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b95df9bf3112a9b867a1dbb2ffabde056cdca5bc498816c82d1934411ec73c99&hash=11aff7fbfdb4db2efea8f2c6d08393533be8e6be078609a1c5c7e33dcb7e0c99&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1876610219301493&tid=spdf-02434203-4775-4ab2-8114-e2d4e4cc781b&sid=fcfd753076d569456428a0b-30384d66f55bgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=090b5b065504545650&rr=8b7a40286eee8a20&cc=in)
+## Mechatronics Architecture
+The system comprises:
+- **Track Frame**: Guides the movement of the cleaning mechanism.
+- **Prismatic Joints**: Allow vertical movement.
+- **Sensors**: Detect edges and obstacles.
+- **Water Pump**: Sprays water for cleaning.
+- **Motors**: Drive the movement and rotation of components.
 
 ## References
-
 1. [Source for installed solar energy capacity](https://www.sciencedirect.com/science/article/pii/S2352484723014579)
 2. [Source for solar energy in desert areas](https://www.mdpi.com/1996-1073/16/19/6794)
