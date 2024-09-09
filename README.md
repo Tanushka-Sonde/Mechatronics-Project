@@ -1,7 +1,7 @@
 # Self-Cleaning Solar Panel Robot
 
 ## Project Overview
-This project aims to develop an automated system for cleaning solar panels to maintain high efficiency in energy production.
+This project aims to develop an robotic system for cleaning solar panels to maintain high efficiency in energy production.
 
 ## Problem Statement
 Solar panels convert sunlight into electricity using photovoltaic cells and are a key renewable energy source. However, dust accumulation on solar panels reduces their efficiency by up to 30%.  Figure below demonstrates the relation between efficiency and the density of dust on the solar panel.
