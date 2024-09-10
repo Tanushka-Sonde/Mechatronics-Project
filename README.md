@@ -26,6 +26,23 @@ To address this issue, we are developing a solar cleaning robot inspired by the 
   <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_4.jpg?raw=true" alt="Rough Sketch 4" width="45%" style="display:inline; margin:2%;" />
 </p>
 
+## Mechanical Architecture:
+
+### Movement Mechanism:
+- **Wheels**: The robot will be equipped with four wheels, two on each side, to allow for smooth and controlled movement across the surface of the solar panels. These wheels will be powered by DC motors to propel the robot forward and backward.
+
+### Self-Adjusting Cleaning Mechanism:
+- **Cleaning Brush/Sponge**: The robot features a cleaning brush or sponge mounted on a rotating rod, driven by a motor.
+- **Piston System**: A piston is attached to both ends of the brush or sponge, allowing it to self-adjust its angle relative to the solar panel. This ensures that the cleaning system is always aligned properly with the surface of the panel for optimal cleaning.
+
+### Cleaning Mechanism:
+- **Rotating Brush**: The cleaning brush is housed inside the robot and comes in contact with the solar panel when the system is lowered. The motor rotates the brush to clean off dust and debris.
+
+### Edge Detection:
+- **Ultrasonic Sensors**: Ultrasonic sensors are mounted on the front and sides of the robot to detect the edges of the solar panel. These sensors detect the edges of the solar panels and direct the upward and downward movement of the cleaning system, ensuring proper alignment and also stopping the movement when it reaches the boundary of the panel.
+
+### Automation and Efficiency:
+- **Control System**: An Arduino microcontroller will manage the motor movements, piston control, and sensor inputs. This ensures that the robot can autonomously navigate the solar panel, adjust the cleaning system, and perform the cleaning task without manual intervention.
 
 ## References
 1. [Source for installed solar energy capacity](https://www.sciencedirect.com/science/article/pii/S2352484723014579)
