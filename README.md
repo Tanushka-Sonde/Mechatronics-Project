@@ -13,7 +13,6 @@ In large solar fields spanning 10 to 200 acres, manual cleaning becomes impracti
 ## Solution
 
 To address this issue, we are developing a solar cleaning robot inspired by the SolarCleano B1 model. This robot will move across solar panels in a field and clean them using a combination of sensors and automated mechanisms. The rough sketches of the solution are provided below, illustrating the robot's design and components.
-<h2>Rough Sketches</h2>
 
 <h2>Rough Sketches</h2>
 
