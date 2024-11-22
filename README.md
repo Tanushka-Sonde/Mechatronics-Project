@@ -10,39 +10,50 @@ Solar panels convert sunlight into electricity using photovoltaic cells and are 
 
 In large solar fields spanning 10 to 200 acres, manual cleaning becomes impractical due to the size, cost, and time required. Therefore, an automated, reliable, and cost-effective solution is needed to clean the panels at regular intervals, with high precision and minimal energy consumption.
 
-## Solution
+# Features
+- **Custom CAD Design:**  
+  All structural components of the rover are designed in CAD, ensuring precision and modularity. These files are included in the repository for easy replication and customization.
+  
+- **Autonomous Movement:**  
+  Equipped with a Raspberry Pi and servo motors, the rover can be controlled remotely.With its strong computing power when came across a solar panel can actually predicts whether the panel 
+  which came across it is clean or dirty and cleans if its dirty.
+  
+- **Remote Control Interface:**  
+  Operated via a Flask web server, allowing users to monitor and control the rover from any device with a web browser.
 
-To address this issue, we have developed a solar cleaning robot inspired by the SolarCleano B1 model. This robot will move across solar panels in a field and clean them using a combination of sensors and automated mechanisms. The rough sketches of the solution are provided below, illustrating the robot's design and components.
+- **Compact and Lightweight:**  
+  The rover’s design ensures portability and minimal impact on the solar panel layout. After Assembly the rover will weigh 10kg at max.
 
-<h2>Rough Sketches</h2>
+# Repository Structure
 
-<p>
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_1.jpg?raw=true" alt="Rough Sketch 1" width="45%" style="display:inline; margin:2%;" />
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_2.jpg?raw=true" alt="Rough Sketch 2" width="45%" style="display:inline; margin:2%;" />
-</p>
+1. **STL Files**  
+   All 3D-printable components required to build our rover are provided in the `CAD` folder. Components include:  
+   - Frame structure  
+   - End effector  
+   - Suction mechanism attachments  
+   - Joint connectors  
 
-<p>
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_3.jpg?raw=true" alt="Rough Sketch 3" width="45%" style="display:inline; margin:2%;" />
-  <img src="https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Rough%20Sketches/rough_sketch_4.jpg?raw=true" alt="Rough Sketch 4" width="45%" style="display:inline; margin:2%;" />
-</p>
+2. **Source Code**  
+   - `app.py`: The primary code for controlling servo motors which are connected to wheels.  
+   - `trained.h`: This is the vgg18 model pretrained on imagenet and add a dense layer with softmax at the end for binary classification for clean and dirty. The dataset of 2390 images was used to train the model and 738 images we used to test our data to get 80% accuracy on the given dataset.
 
-## Mechanical Architecture:
+3. **Prototype Reference Images**  
+   Find progress images of SPAC-R in the `Progress Images` folder:  
+   - `Progress2.jpg`  
+   - `Prototype Image.jpeg`  
+   - Suction cup of the end effector: `image`  
+   - `progress3.jpg`  
+   - Final model image: `image`  
 
-### Movement Mechanism:
-- **Wheels**: The robot will be equipped with four wheels, two on each side, to allow for smooth and controlled movement across the surface of the solar panels. These wheels will be powered by DC motors to propel the robot forward and backward.
+4. **Reference Videos**  
+   Demonstrations of SPAC-R in action are located in the `Videos` folder:  
+   - Initial prototype testing  
+   - End effector rotation  
+   - Suction assembly in operation  
+   - Servo movement control  
+   - Final prototype assembling a flower  
 
-### Self-Adjusting Cleaning Mechanism:
-- **Cleaning Brush/Sponge**: The robot features a cleaning brush or sponge mounted on a rotating rod, driven by a motor.
-- **Piston System**: A piston is attached to both ends of the brush or sponge, allowing it to self-adjust its angle relative to the solar panel. This ensures that the cleaning system is always aligned properly with the surface of the panel for optimal cleaning.
 
-### Cleaning Mechanism:
-- **Rotating Brush**: The cleaning brush is housed inside the robot and comes in contact with the solar panel when the system is lowered. The motor rotates the brush to clean off dust and debris.
-
-### Edge Detection:
-- **Ultrasonic Sensors**: Ultrasonic sensors are mounted on the front and sides of the robot to detect the edges of the solar panel. These sensors detect the edges of the solar panels and direct the upward and downward movement of the cleaning system, ensuring proper alignment and also stopping the movement when it reaches the boundary of the panel.
-
-### Automation and Efficiency:
-- **Control System**: An Arduino microcontroller will manage the motor movements, piston control, and sensor inputs. This ensures that the robot can autonomously navigate the solar panel, adjust the cleaning system, and perform the cleaning task without manual intervention.
 
 ## References
 1. [Source for installed solar energy capacity](https://www.sciencedirect.com/science/article/pii/S2352484723014579)
