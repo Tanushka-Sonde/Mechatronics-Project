@@ -48,7 +48,7 @@ In this project, we have developed a rover designed for cleaning solar panels to
 - **L298N** This a driver used for controlling DC motors. Can control 2 DC motors at once.
 
 ## Circuit Diagram  
-- For RPi: `image`  
+- For RPi: `image.png`  
 
 ## 3D-Printed Parts  
 - STL files are included for all major structural components in CAD foler.  
