@@ -3,13 +3,6 @@
 ## Project Overview
 In this project, we have developed a rover designed for cleaning solar panels to minimize human intervention. The rover incorporates advanced mechanisms and components to ensure efficient cleaning, reducing maintenance costs and improving the overall efficiency of solar panels.
 
-## Problem Statement
-Solar panels convert sunlight into electricity using photovoltaic cells and are a key renewable energy source. However, dust accumulation on solar panels reduces their efficiency by up to 30%.  Figure below demonstrates the relation between efficiency and the density of dust on the solar panel.
-
-![Alt text](https://github.com/Tanushka-Sonde/Mechatronics-Project/blob/main/Screenshot%202024-08-23%20190057.png?raw=true)
-
-In large solar fields spanning 10 to 200 acres, manual cleaning becomes impractical due to the size, cost, and time required. Therefore, an automated, reliable, and cost-effective solution is needed to clean the panels at regular intervals, with high precision and minimal energy consumption.
-
 # Features
 - **Custom CAD Design:**  
   All structural components of the rover are designed in CAD, ensuring precision and modularity. These files are included in the repository for easy replication and customization.
@@ -28,10 +21,10 @@ In large solar fields spanning 10 to 200 acres, manual cleaning becomes impracti
 
 1. **STL Files**  
    All 3D-printable components required to build our rover are provided in the `CAD` folder. Components include:  
-   - Frame structure  
-   - End effector  
-   - Suction mechanism attachments  
-   - Joint connectors  
+   - Full base  
+   - Bracket  
+   - U frame  
+   - Final  
 
 2. **Source Code**  
    - `app.py`: The primary code for controlling servo motors which are connected to wheels.  
