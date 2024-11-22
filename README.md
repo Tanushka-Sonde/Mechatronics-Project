@@ -1,7 +1,7 @@
 # Self-Cleaning Solar Panel Robot
 
 ## Project Overview
-This project aims to develop an robotic system for cleaning solar panels to maintain high efficiency in energy production.
+In this project, we have developed a rover designed for cleaning solar panels to minimize human intervention. The rover incorporates advanced mechanisms and components to ensure efficient cleaning, reducing maintenance costs and improving the overall efficiency of solar panels.
 
 ## Problem Statement
 Solar panels convert sunlight into electricity using photovoltaic cells and are a key renewable energy source. However, dust accumulation on solar panels reduces their efficiency by up to 30%.  Figure below demonstrates the relation between efficiency and the density of dust on the solar panel.
@@ -12,7 +12,7 @@ In large solar fields spanning 10 to 200 acres, manual cleaning becomes impracti
 
 ## Solution
 
-To address this issue, we are developing a solar cleaning robot inspired by the SolarCleano B1 model. This robot will move across solar panels in a field and clean them using a combination of sensors and automated mechanisms. The rough sketches of the solution are provided below, illustrating the robot's design and components.
+To address this issue, we have developed a solar cleaning robot inspired by the SolarCleano B1 model. This robot will move across solar panels in a field and clean them using a combination of sensors and automated mechanisms. The rough sketches of the solution are provided below, illustrating the robot's design and components.
 
 <h2>Rough Sketches</h2>
 
