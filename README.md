@@ -31,12 +31,38 @@ In this project, we have developed a rover designed for cleaning solar panels to
    - `trained.h`: This is the vgg18 model pretrained on imagenet and add a dense layer with softmax at the end for binary classification for clean and dirty. The dataset of 2390 images was used to train the model and 738 images we used to test our data to get 80% accuracy on the given dataset.
 
 3. **Prototype Reference Images**  
-   Find progress images of SPAC-R in the `Progress Images` folder:  
-   - `Progress2.jpg`  
-   - `Prototype Image.jpeg`  
-   - Suction cup of the end effector: `image`  
-   - `progress3.jpg`  
-   - Final model image: `image`  
+   Find prototype images of our rover are in the `Final Images` folder:
+   - Final model image: `image`
+  
+# Hardware Requirements
+
+## Electronics
+- **Controller:** Raspberry Pi  
+- **Servo Motors:**  
+  - Four for rotating wheels
+  - Four for controlling directoin
+- **DC Motor:**  
+  - One for controlling the rotation of brush
+- **Camera:** RPi Camera Module for obstacle detection,  (optional)
+- **PCA 9685:** Connecting rpi powered by a battery can control 16 motors at a time , makes it necessary for simultaneous tyre rotation.
+- **L298N** This a driver used for controlling DC motors. Can control 2 DC motors at once.
+
+## Circuit Diagram  
+- For RPi: `image`  
+
+## 3D-Printed Parts  
+- STL files are included for all major structural components in CAD foler.  
+
+---
+
+# Software Requirements
+
+- **Python Programming Language** As python has pre-installed libraries for motor drivers we are using and machine learning models are easier to use in python.  
+
+---
+
+
+
 
 
 
