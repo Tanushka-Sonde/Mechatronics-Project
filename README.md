@@ -31,8 +31,8 @@ In this project, we have developed a rover designed for cleaning solar panels to
    - `trained.h`: This is the vgg18 model pretrained on imagenet and add a dense layer with softmax at the end for binary classification for clean and dirty. The dataset of 2390 images was used to train the model and 738 images we used to test our data to get 80% accuracy on the given dataset.
 
 3. **Prototype Reference Images**  
-   Find prototype images of our rover are in the `Final Images` folder:
-   - Final model image: `image`
+   After almost 8 iterations we finalised the rover which is attached in image below.
+   - Final model image: `final.jpeg`
   
 # Hardware Requirements
 
