@@ -27,7 +27,7 @@ In this project, we have developed a rover designed for cleaning solar panels to
    - Final  
 
 2. **Source Code**  
-   - `app.py`: The primary code for controlling servo motors which are connected to wheels.  
+   - `app.py`: The primary code for controlling servo motors which are connected to wheels. 
    - `trained.h`: This is the vgg18 model pretrained on imagenet and add a dense layer with softmax at the end for binary classification for clean and dirty. The dataset of 2390 images was used to train the model and 738 images we used to test our data to get 80% accuracy on the given dataset.
 
 3. **Prototype Reference Images**  
@@ -37,14 +37,6 @@ In this project, we have developed a rover designed for cleaning solar panels to
    - Suction cup of the end effector: `image`  
    - `progress3.jpg`  
    - Final model image: `image`  
-
-4. **Reference Videos**  
-   Demonstrations of SPAC-R in action are located in the `Videos` folder:  
-   - Initial prototype testing  
-   - End effector rotation  
-   - Suction assembly in operation  
-   - Servo movement control  
-   - Final prototype assembling a flower  
 
 
 
