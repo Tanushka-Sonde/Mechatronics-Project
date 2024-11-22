@@ -32,7 +32,7 @@ In this project, we have developed a rover designed for cleaning solar panels to
 
 3. **Prototype Reference Images**  
    After almost 8 iterations we finalised the rover which is attached in image below.
-   - Final model image: `final.jpeg`
+   - ![Final Model image](final.jpeg)  
   
 # Hardware Requirements
 
